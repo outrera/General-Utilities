@@ -1,5 +1,5 @@
 """
-Download Datasets from a URL
+Download file from a URL
 Show download progress
 
 Inputs:
@@ -8,7 +8,7 @@ Inputs:
 --filesize
 
 Example:
->> python download_dataset  --url 'https://commondatastorage.googleapis.com/books1000/'
+>> python file_downloader  --url 'https://commondatastorage.googleapis.com/books1000/'
                             --filename notMNIST_large.tar.gz --filesize 247336696
 
 train_filename = maybe_download('notMNIST_large.tar.gz', 247336696)
